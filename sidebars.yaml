@@ -1,8 +1,16 @@
 training:
   - page: developer-portal/index.md
   - group: Training exercises
+    menuStyle: drilldown
+    icon: https://reactjs.org/favicon.ico
     expanded: true
     pages:
+      - label: google
+        external: true
+        href: /google.com
+      - label: google2
+        external: true
+        href: https://google.com
       - label: Setup
         page: developer-portal/setup.md
       - label: Markdown

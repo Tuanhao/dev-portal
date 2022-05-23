@@ -15,10 +15,10 @@ export const theme = {
   colors: {
     // tonalOffset: 0.2,
     primary: {
-      main: '#227a88',
+      main: 'red',
       // light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
       // dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
-      // contrastText: ({ colors }) => readableColor(colors.primary.main),
+      contrastText: ({ colors }) => readableColor(colors.primary.main),
     },
     // success: {
     //   main: '#00aa13',
@@ -81,11 +81,11 @@ export const theme = {
       link: '#31bbb6',
       head: '#c167e4',
     },
-    // navbar: {
-    //   main: ({ colors }) => colors.primary.main,
-    //   gradient: ({ colors }) => darken(colors.tonalOffset / 2, colors.navbar.main),
-    //   contrastText: 'white'
-    // },
+    navbar: {
+      main: '#227a88',
+      gradient: 'red',
+      contrastText: 'white'
+    },
     // footer: {
       // main: ({ colors }) => colors.primary.main,
       // contrastText: 'white'
@@ -111,14 +111,14 @@ export const theme = {
       fontFamily: '"Source Sans Pro", sans-serif',
       fontWeight: '600',
     },
-    // heading1: {
-    //   fontSize: '1.85714em',
-    //   fontWeight: '600',
-    //   fontFamily: ({ typography }) => typography.headings.fontFamily,
-    //   lineHeight: ({ typography }) => typography.lineHeight,
-    //   color: ({ colors }) => colors.primary.main,
-    //   capitalize: true,
-    // },
+    heading1: {
+      fontSize: '1.85714em',
+      fontWeight: '600',
+      fontFamily: ({ typography }) => typography.headings.fontFamily,
+      lineHeight: ({ typography }) => typography.lineHeight,
+      color: "black",
+      capitalize: true,
+    },
     // heading2: {
     //   fontSize: '1.57143em',
     //   fontWeight: '600',
