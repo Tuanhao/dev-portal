@@ -5,9 +5,6 @@ training:
     icon: https://reactjs.org/favicon.ico
     expanded: true
     pages:
-      - label: google
-        external: true
-        href: /google.com
       - label: google2
         external: true
         href: https://google.com
@@ -74,6 +71,8 @@ training:
                             pages:
                               - label: Upgrading
                                 # page: developer-portal/upgrade.md
+welcome:
+  - page: developer-portal/welcome.mdx
 alternative:
   - page: developer-portal/sidebar-alternative.md
     label: Alternative sidebar example
