@@ -73,6 +73,8 @@ training:
                                 # page: developer-portal/upgrade.md
 welcome:
   - page: developer-portal/welcome.mdx
+category:
+  - page: api-documentations/category.mdx
 alternative:
   - page: developer-portal/sidebar-alternative.md
     label: Alternative sidebar example

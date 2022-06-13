@@ -2,4 +2,4 @@ apiCatalog:
   - title: ACME
     disableAutoSidebar: true
     versions:
-      - link: https://api.redocly.com/registry/bundle/hao-test/example/v2/
+      - link: ./openapi/petstore.yaml

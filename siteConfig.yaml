@@ -35,8 +35,8 @@ nav:
   - label: Training exercises
     page: developer-portal/index.md
 
-  - label: Training exercises 222
-    page: developer-portal/setup.md
+  - label: Category
+    page: api-documentations/category.mdx
 
   - label: External docs
     icon: ./images/redocly-icon-white.png
